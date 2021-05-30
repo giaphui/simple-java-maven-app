@@ -17,6 +17,20 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <distributionManagement>
+		<repository>
+			<id>nexus-mule-local-releases</id>
+			<name>nexus-mule-local-releases</name>
+			<url>http://10.12.10.2:28181/repository/mulesoft-releases/</url>
+			<layout>default</layout>
+		</repository>
+		<snapshotRepository>
+			<id>nexus-mule-local-docker</id>
+			<name>nexus-mule-local-docker</name>
+			<url>http://10.12.10.2:28181/repository/mulesoft-snapshots/</url>
+			<layout>default</layout>
+		</snapshotRepository>
+	</distributionManagement>
   <scm>
     <connection>scm:git:https://github.com/giaphui/simple-java-maven-app.git</connection>
     <developerConnection>scm:git:https://github.com/giaphui/simple-java-maven-app.git</developerConnection>
