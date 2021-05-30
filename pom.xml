@@ -18,6 +18,11 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <scm>
+    <connection>scm:git:https://github.com/giaphui/simple-java-maven-app.git</connection>
+    <developerConnection>scm:git:https://github.com/giaphui/simple-java-maven-app.git</developerConnection>
+    <url>https://github.com/giaphui/simple-java-maven-app.git</url>
+  </scm>
   <build>
     <pluginManagement>
       <plugins>
